@@ -7,8 +7,8 @@
  |_|  |_|\__,_|_|\__|_|_|   \___/ \___/|_|_|  |_|_|_| |_|\___|_|   
  
 ====================================================================
-MultiPoolMiner - created by aaronsace 
-LINK: https://github.com/aaronsace/MultiPoolMiner/
+MultiPoolMiner - created by aaronsace Forked by webrats, removed alot of fluff
+LINK: https://github.com/theeddie/MultiPoolMiner
 
 Licensed under the GNU General Public License v3.0
 Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. https://github.com/aaronsace/MultiPoolMiner/blob/master/LICENSE
@@ -24,7 +24,7 @@ FEATURE SUMMARY:
 - Controls any miner that is available via command line
 - Supports benchmarking and multiple platforms (AMD, NVIDIA and CPU)
 
-Any bitcoin donations are greatly appreciated: 1MsrCoAt8qM53HUMsUxvy9gMj3QVbHLazH 
+Any bitcoin donations are greatly appreciated: 3CfgLs9U1oy8ZDWGyfBGC1HoyAPfVi6BgS   
 
 
 ====================================================================
@@ -69,7 +69,7 @@ COMMAND LINE OPTIONS (not case-sensitive, see Sample Usage section below for an 
 	Your Bitcoin payout address. Required when mining on Zpool and Nicehash.
 	
 -SSL
-	Secure connection option.
+	Secure connection option. May cause erros with nice hash
 
 -type [AMD,NVIDIA,CPU]
 	Choose the relevant GPU(s) and/or CPU mining.
